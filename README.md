@@ -19,8 +19,6 @@ It is a script, which can automatically migrate bibliotic data from **Zotero** t
 1. Keep Zotero **closed**, otherwise the SQLite might be locked.
 2. Make sure to open DEVONthink and **DO NOT** switch (click) other DEVONthink database, during migration.
 
-
-
 ## Usage 2: From .bib file to DEVONthink
 
 ### Basic Idea
