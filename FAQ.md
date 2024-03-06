@@ -8,6 +8,8 @@
 
 1. DEVONthink doesn't support CSV grammars well, so when there is ", ' or comma, the content might be wrongly read.
 
+# Unexpected Result
+
 ## Why I have metadata in Zotero, but the result in DEVONthink doesn't
 
 1. This might happen especially you got those metadata using the plugin like better-bib
