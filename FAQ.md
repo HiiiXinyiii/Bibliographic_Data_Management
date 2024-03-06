@@ -2,6 +2,11 @@
 
 ## Parameter Settings
 
+## Should I launch Zotero and DEVONthink when running the code
+
+1. Zotero should be **closed**, otherwise the Zotero SQLite Database might be locked and we can't get datw from it.
+2. DEVONthink should be **launched**, because we are using apple script to interact with it.
+
 # Code Issue
 
 ## Why TSV Rather than CSV
