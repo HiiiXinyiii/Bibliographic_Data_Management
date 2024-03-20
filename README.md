@@ -1,43 +1,30 @@
-# Bib_Data_Migration
-Pipeline for Data Migration from Zotero to Devonthink
+# Bibliographic Data Management
 
-## Main Functions
+## Migration
 
-It is a script, which can automatically migrate bibliotic data from **Zotero** to **DEVONthink**
+It can migrate the documents from Zoero to DEVONthink. The source can be directly from Zotero or the exported bib with documents from Zeterom.
 
+For more information, refer to [this](./Migrate/README-Migration.md).
 
-## Usage 1: From Zotero to DEVONthink
+### Migrate Directly From Zotero To DEVONthink
 
-### Basic Idea
+- Work flow
+    1. Access the Zotero sqlite
+    2. Export the metadata and the corresponding documents
+    3. Clean data
+    4. Import into DEVONthink
 
-1. We access the Zotero SQLite database to export the metadata of the documents as tsv, including file path (it needs extra ops to get)
-2. We do the data cleaning
-3. Import into DEVONthink with tsv and the documents
+### Migrate From the exported Bib From Zotero To DEVONthink
 
-### Tips
+- Work flow
+    1. Export Bib and documents from Zotero [Do this manually with plugin]
+    2. Clean data
+    3. Import into DEVONthink
 
-1. Keep Zotero **closed**, otherwise the SQLite might be locked.
-2. Make sure to open DEVONthink and **DO NOT** switch (click) other DEVONthink database, during migration.
+## Extract Metadata From PDF
 
-## Usage 2: From .bib file to DEVONthink
+It can extract the metadata from the PDF files.
 
-### Basic Idea
+For more information, refer to [this](./get_metadata/README-GetMetadata.md)
 
-1. We transform the bib into tsv and do the data cleaning
-2. We use AppleScript to migrate the documents into DEVONthink
-
-### Method
-
-1. We need to export .bib with the pdf files from Zotero at first
-2. Set the script parameters
-3. Run the script
-
-### Tips
-
-1. Make sure to open DEVONthink and DO NOT switch (click) other DEVONthink database, during migration.
-
-
-## FAQ
-
-[FAQ](./FAQ.md)
 
