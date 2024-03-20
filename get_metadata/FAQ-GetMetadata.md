@@ -17,15 +17,15 @@ After you run the code, the metadata will be updated in the right panel in DEVON
         ```cmd
         brew install ImageMagick
         ```
-3. Make sure their paths are saved in **bash shell** environment. Because I call bash shell to call jq and ImageMagick.
+3. Make sure their paths are saved in **zsh shell** environment. Because I call zsh shell to call jq and ImageMagick.
 
 ## It Says Can't Find jq and ImageMagick
 
-Make sure the paths of both jq and ImageMagick are saved in PATH variables of the **bash shell** environment.
+Make sure the paths of both jq and ImageMagick are saved in PATH variables of the **zsh shell** environment.
 
 Because AppleScript environment is different from pure terminal environment. I utilized this to use a specific shell:
 ```
-bash -lc 'xxxx cmd xxxxx'
+zsh -lc 'xxxx cmd xxxxx'
 ```
 
 If you stil can't figure it out the solution
