@@ -11,7 +11,7 @@
 
 ## Usage
 
-1. Make sure you installed these cmd tools (you might need to adapt the tool path in the code)
+1. Make sure you installed these cmd tools and their path variable saved in bash shell
     - ImageMagick: an image process tool
     - jq: a json parsing tool
 2. Make sure you are connected to Internet, because the code will query OpenAI GPT and Google CV
@@ -29,10 +29,7 @@
 
 ## To Be Improved
 
-### Add jq And ImageMagick Path Into AppleScript Environment
-
-- Now we use absolute path for jq and ImageMagick when calling the tools.
-- What's next is to add the path to AppleScript and then we can call jq and ImageMagick directly.
+Refer to [To Be Improved](./ToBeImproved-GetMetadata.md)
 
 ### OpenAI GPT API Settings
 
