@@ -9,5 +9,5 @@
 
 I utilized this to use a specific shell to call jq and ImageMagick
 ```
-bash -lc 'xxxx cmd xxxxx'
+zsh -lc 'xxxx cmd xxxxx'
 ```
