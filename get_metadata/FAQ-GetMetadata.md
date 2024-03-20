@@ -17,19 +17,26 @@ After you run the code, the metadata will be updated in the right panel in DEVON
         ```cmd
         brew install ImageMagick
         ```
-3. Use the absolute path in the code for jq and ImageMagick
-    - AppleScript environment is different from pure terminal environment.
-    - Probably we can update this so we can call jq and ImageMagick without absolute path as long as the path is saved in environment variables.
+3. Make sure their paths are saved in **bash shell** environment. Because I call bash shell to call jq and ImageMagick.
 
 ## It Says Can't Find jq and ImageMagick
 
-- You need to set absolute path for jq and ImageMagick in the code. Because AppleScript environment is different from pure terminal environment.
+Make sure the paths of both jq and ImageMagick are saved in PATH variables of the **bash shell** environment.
+
+Because AppleScript environment is different from pure terminal environment. I utilized this to use a specific shell:
+```
+bash -lc 'xxxx cmd xxxxx'
+```
+
+If you stil can't figure it out the solution
+
+- You need to set absolute path for jq and ImageMagick in the code. 
 - You can use this command line in terminal to get the path for jq and ImageMagick
     ```cmd
     which jq
     ```
     ```cmd
-    which ImageMagick
+    which Magick
     ```
 
 ## OpenAI API Key Related
