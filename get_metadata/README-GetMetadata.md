@@ -11,7 +11,7 @@
 
 ## Usage
 
-1. Make sure you installed these cmd tools and their path variable saved in bash shell
+1. Make sure you installed these cmd tools and their path variable saved in **zsh shell**
     - ImageMagick: an image process tool
     - jq: a json parsing tool
 2. Make sure you are connected to Internet, because the code will query OpenAI GPT and Google CV
