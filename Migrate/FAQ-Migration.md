@@ -38,5 +38,8 @@ No, you don't. When LIBRARY_NAME is not None or "", COLLECTION_NAME will be igno
 
 # __Idea Issues__
 
+## Why Do You Need This Script
 
+- We have a lot of documents in Zotero.
+- But we wish to utilize the more advanced functions in DEVONthink, i.e. OCR, advanced search, etc., so we migrate all the documents from Zotero to DEVONthink.
 
