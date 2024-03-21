@@ -11,3 +11,8 @@ I utilized this to use a specific shell to call jq and ImageMagick
 ```
 zsh -lc 'xxxx cmd xxxxx'
 ```
+
+## OpenAI GPT API Settings
+
+1. You might be able to improve GPT analysis by using better parameters
+    - Top P, temperature, etc.

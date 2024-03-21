@@ -2,12 +2,15 @@
 
 ## Basic Code Logics
 
-1. Select the documents that you want to fetch metadata (Can be multiple documents)
-2. Export the PDF to local
+1. Select the documents that you want to fetch metadata in DEVONthink (Can select multiple documents)
+2. Export the PDF from DEVONthink to local file system
 3. Convert PDF into PNG (image type)
-4. Process PNG, i.e. crop
-5. Query Google CV API to OCR the image and get the content
-6. Query the OpenAI GPT API to extra the content
+4. Extract content from PNG
+    1. Crop PNG into several parts
+    2. For each part, query Google CV API to OCR the image and get the content
+    3. Concat the content
+5. Query the OpenAI GPT API to extract the content
+    - Ask GPT about metadata
 
 ## Usage
 
@@ -30,11 +33,6 @@
 ## To Be Improved
 
 Refer to [To Be Improved](./ToBeImproved-GetMetadata.md)
-
-### OpenAI GPT API Settings
-
-1. You might be able to improve GPT analysis by using better parameters
-    - Top P, temperature, etc.
 
 ## FAQ
 
