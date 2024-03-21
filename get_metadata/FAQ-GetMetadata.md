@@ -1,8 +1,12 @@
-# Usage Issues
+# __Usage Issues__
 
-## Do I Need to Open DEVONthink
+## Which File Is Main Code
 
-Sure, you have to select what documents you want to process in DEVONthink.
+Run the AppleScript named **get_metadata.scpt**, which is the main function.
+
+## Do I Need to Open DEVONthink During Fetching Metadata
+
+Yes, and you have to select what documents you want to process in DEVONthink.
 
 ## Where Can I See the Result
 
@@ -25,7 +29,7 @@ Make sure the paths of both jq and ImageMagick are saved in PATH variables of th
 
 Because AppleScript environment is different from pure terminal environment. I utilized this to use a specific shell:
 ```
-zsh -lc 'xxxx cmd xxxxx'
+zsh -lc 'xxxx (cmd) xxxxx'
 ```
 
 If you stil can't figure it out the solution
@@ -43,13 +47,13 @@ If you stil can't figure it out the solution
 
 ### Where Can I Find OpenAI GPT API Key
 
-Google it. Refer to OpenAI documentation.
+Google it for more detail. Refer to OpenAI documentation.
 
 ### Why Can't I Use GPT While I Have ChatGPT 4
 
-Google it. ChatGPT is different from GPT API Key. You need to pay for API Key seperately.
+Google it for more detail. ChatGPT is different from GPT API Key. You need to pay for API Key seperately.
 
-# Idea Issues
+# __Idea Issues__
 
 ## Why Use Google CV API Rather Than DEVONthink Built-in OCR Ability
 
@@ -60,8 +64,17 @@ Google it. ChatGPT is different from GPT API Key. You need to pay for API Key se
 
 1. DEVONthink's smart rules can only extract metadata based on **regular expression**. But for title and author information, there is no uniform expression. 
 
+## Why OCR an Image By Segments Rather Than A Whole
 
+1. OCR performance
+    - When we OCR the whole image, the result could be bad, for slanted content, and different size fonts.
+    - If we OCR a small part of the image, OCR has better focus and return better result.
+2. Google CV API Limit
+    - Google CV API doesn't allow 100k bytes image, for an image (base63 form)  with complicated content might exceed the limit.
 
+## Why Do You Need This Script
 
-
+- We have a lot of old documents in DEVONthink. But we have no metadata for them.
+- In most documents, they have title, author, date at the beginning of the document. So we wish that we can extract the metadata from the documents.
+- And DEVONthink's smart rules can't extract the title and author from the documents.
 
