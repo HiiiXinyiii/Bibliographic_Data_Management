@@ -6,7 +6,7 @@ It is the script to automatically migrate bibliotic data from **Zotero** to **DE
 
 ### Basic Code Logics
 
-1. We access the Zotero SQLite database to export the metadata of the documents as tsv, including file path (it needs extra ops to get)
+1. Access the Zotero SQLite database to export the metadata of the documents as tsv, including file path (it needs extra ops to get)
 2. We do the data cleaning
 3. Import into DEVONthink with tsv and the documents
 
