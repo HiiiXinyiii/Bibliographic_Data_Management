@@ -6,7 +6,9 @@
 
 It is located in **network tab** in Chrome Dev tools (F12).
 
+Copy info.json path
 
+![copy info.json path](./resources/copy_info_json_path.png)
 
 ### Modify jp2 link
 
