@@ -1,20 +1,24 @@
 # Implementation Issues
 
-## How do You Get the Image Link
+## How Do You Get the Image Link
 
 The image is hosted by **jp2 file system**. And NYU saved the jp2 link in the **info.json** while loading the image preview.
 
-Modify jp2 link
+## How Do You Know the Links for All Images In the Collection
 
-The jp2 link looks like this:
+Once we have the jp2 link, we can modify the link to get all things. 
 
-https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ffales_mss222_cuid28860%2Ffales_mss222_cuid28860_n000001_d.jp2/full/full/0/default.png
+Here is how we can modify jp2 link:
 
-The paramater means:
-
-- full (first): entire image
-- full (second): original size
-- 0: no rotation
-- default: default quality
-- png: iamge size
+- The jp2 link looks like this:
+    ```
+    https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ffales_mss222_cuid28860%2Ffales_mss222_cuid28860_n000001_d.jp2/full/full/0/default.png
+    ```
+- The paramater means:
+    + n000001: the index of the image
+    + full (first): entire image
+    + full (second): original size
+    + 0: no rotation
+    + default: default quality
+    + png: iamge size
 
