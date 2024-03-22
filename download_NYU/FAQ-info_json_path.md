@@ -1,4 +1,4 @@
-# Usage Issue
+# Usage Issues
 
 ## How Do I Find the info.json
 
