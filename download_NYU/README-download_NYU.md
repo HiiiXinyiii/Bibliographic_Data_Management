@@ -9,6 +9,11 @@
 2. Set parameters
 3. Run the script
 
+### Basic Logics
+
+1. Get the info.json link **manually**
+2. Parse the info.json and get the link for jp2
+3. Modify jp2 link to access all the image in the collection
 
 ## FAQ
 
