@@ -2,6 +2,16 @@
 
 ## How Do I Find the info.json
 
+Use [this NYU library link](https://findingaids.library.nyu.edu/fales/mss_222/contents/items001/) as an example. 
+
+![NYU library example](./resources/NYU_library_example.png)
+
+1. Click the collection link and load the image viewer
+2. Press F12 to open Chrome Dev Tools
+3.  Switch to **network tab** in Chrome Dev tools
+    + If you do load image preview in step 1, you might need to refresh the page to catch the info.json
+4. Copy info.json path 
+    + ![copy info.json path](./resources/copy_info_json_path.png)
 
 # Implementation Issues
 
