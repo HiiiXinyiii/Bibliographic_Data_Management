@@ -13,6 +13,12 @@ Use [this NYU library link](https://findingaids.library.nyu.edu/fales/mss_222/co
 4. Copy info.json path 
     + ![copy info.json path](./resources/copy_info_json_path.png)
 
+## What Will Happen If I set Parameter img_num Larger Than Actual Image Number
+
+**Nothing** wrong will happen. The script will run smoothly and let you know when there are actually not that many images to download.
+
+And it's recommended to set this parameters large (but not too large), especially when you are not sure how many images in the collection. (but usually NYU web page will let you know how many images in this collection.)
+
 # Implementation Issues
 
 ## How Do You Get the Image Link
