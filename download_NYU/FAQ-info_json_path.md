@@ -1,3 +1,8 @@
+# Usage Issue
+
+## How Do I Find the info.json
+
+
 # Implementation Issues
 
 ## How Do You Get the Image Link
@@ -24,4 +29,11 @@ Here is how we can modify jp2 link:
     + 0: no rotation
     + default: default quality
     + png: iamge size
+
+## Why Do You **Not** Streamlize the Part to Get info.json
+
+We are not sure whether the other NYU library web page share the same way to load info.json. And this might not be a regular work. So for now, it's not that necessary to streamlize this part.
+
+
+
 
