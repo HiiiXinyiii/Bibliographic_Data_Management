@@ -17,4 +17,4 @@
 
 ## FAQ
 
-Refer to [FAQ](./FAQ-info_json_path.md)
+Refer to [FAQ](./FAQ-download_NYU.md)
