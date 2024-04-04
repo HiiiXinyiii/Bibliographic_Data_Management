@@ -4,7 +4,7 @@
 
 It can migrate the documents from Zoero to DEVONthink. The source can be directly from Zotero or the exported bib with documents from Zeterom.
 
-For more information, refer to [this](./Migrate/README-Migration.md).
+For more information, refer to [this](./migrate/README-Migration.md).
 
 ### Migrate Directly From Zotero To DEVONthink
 
