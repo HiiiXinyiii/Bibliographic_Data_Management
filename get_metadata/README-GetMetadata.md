@@ -21,7 +21,7 @@
 3. Set your own **Google CV API key** (DO NOT leak it to anyone else, delete it especially when you share the code)
 4. Set your own **OpenAI GPT API key** (DO NOT leak it to anyone else, delete it especially when you share the code)
 5. Select the documents that you want to fetch metadata in DEVONthink (Can be multiple documents)
-6. Run the code
+6. Run the code in cmd to redirect the output into a file
    ```cmd
    cd /path/to/get_metadata folder
    osascript get_metadata.scpt > output.txt 2>&1
