@@ -22,6 +22,10 @@
 4. Set your own **OpenAI GPT API key** (DO NOT leak it to anyone else, delete it especially when you share the code)
 5. Select the documents that you want to fetch metadata in DEVONthink (Can be multiple documents)
 6. Run the code
+   ```cmd
+   cd /path/to/get_metadata folder
+   osascript get_metadata.scpt > output.txt 2>&1
+   ```
 7. Now the metadata should show up in metadata panel for corresponding documents in DEVONthink
 
 ## Limits
