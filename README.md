@@ -2,9 +2,11 @@
 
 ## Function 1: Migration
 
-It can migrate the documents from Zoero to DEVONthink. The source can be directly from Zotero or the exported bib with documents from Zeterom.
+See [this](./migrate/README-Migration.md) for more information, such as tutorial.
 
-For more information, refer to [this](./migrate/README-Migration.md).
+It can migrate the documents from Zoero to DEVONthink. 
+
+The source can be directly from Zotero or the exported bib with documents from Zeterom.
 
 ### Migrate Directly From Zotero To DEVONthink
 
